@@ -132,7 +132,7 @@ export default function ReportPreview({ plan, worksheets, summary }: ReportPrevi
       <Divider />
 
       {/* Section 5: Recommendations */}
-      <Title level={five}>五、改进建议</Title>
+      <Title level={5}>五、改进建议</Title>
       {findings.length > 0 ? (
         <Paragraph>
           基于以上发现的 {findings.length} 项缺陷，建议如下：
