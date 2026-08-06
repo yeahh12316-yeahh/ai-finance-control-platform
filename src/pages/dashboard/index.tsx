@@ -19,6 +19,7 @@ import KeyMetricsCards from './components/KeyMetricsCards';
 import RiskTrendChart from './components/RiskTrendChart';
 import AlertTimeline from './components/AlertTimeline';
 import RiskDistributionChart from './components/RiskDistributionChart';
+import DefectStatusChart from './components/DefectStatusChart';
 
 export default function DashboardPage() {
   const [loading, setLoading] = useState(true);
